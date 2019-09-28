@@ -1,0 +1,248 @@
+style
+
+.Header {
+  position: fixed;
+  height: 30px;
+  width: 1080px;
+  background-color: white;
+  padding: 0px;
+  margin: 0px;
+  z-index: 1;
+}
+
+#Bar {
+  position: fixed;
+  height: 70px;
+  border: 5px 5px 5px 5px;
+  border-color: white;
+  width: 100%;
+  background-color: white;
+  padding: 0px;
+  z-index: 1;
+}
+
+#Name {
+    float: left;
+    background-color: #4aaaa5;
+    height: 71px;
+    width: 150px;
+    border: 0px;
+    padding: 18px 0px 18px 0px;
+    margin: 5px;
+    text-align: center;
+    color: white;
+    position: absolute;
+    left: 10%;
+    top:-8%;
+    font-size: 20pt;
+}
+
+.nav-link {
+    float: right;
+    color: grey;
+    padding: 22px;
+}
+   
+
+    
+}
+
+  a:link {
+    text-decoration: none;
+  }
+  
+#about{
+  float:right;
+}
+#portfolio {
+  float: right;
+
+}
+#contact {
+  float: right;
+}
+
+h3 {
+    color: #4aaaa5;
+    font-size: 25pt;
+}
+
+.Container {
+    Float: left;
+    background-color: #ffffff;
+    /* height:520px; */
+    /*width: 1150px; */
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 15%;
+    border: 2px solid #dddddd;
+    padding: 1%;
+}
+
+#portfoliocontainer{
+    Float: left;
+    background-color: #ffffff;
+    /* height:520px; */
+    /* width: 1150px; */
+    position: absolute;
+    left: 10%;
+    right: 10%;
+    top: 15%;
+    border: 2px solid #dddddd;
+    padding: 1%;
+}
+
+Footer {
+    background-color: #666666;
+    border-color: turquoise;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    border-top: 5px solid #4aaaa5;
+
+  }
+
+body {
+    background-color: #dddddd;
+    font-family: sans-serif;
+}
+
+img {
+
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+P1 {
+  float: left;
+}
+
+#image1 {
+  height: 230px;
+  width: 230px;
+}
+
+#image2 {
+
+  height: 230px;
+  width: 230px;
+}
+
+#image3 {
+  height: 230px;
+  width: 230px;
+}
+
+#image4 {
+  height: 230px;
+  width: 230px;
+}
+
+
+
+  /* Style inputs with type="text", select elements and textareas */
+input[type=text], select, textarea {
+  width: 100%; /* Full width */
+  padding: 12px; /* Some padding */  
+  border: 1px solid #ccc; /* Gray border */
+  border-radius: 4px; /* Rounded borders */
+  box-sizing: border-box; /* Make sure that padding and width stays in place */
+  margin-top: 6px; /* Add a top margin */
+  margin-bottom: 16px; /* Bottom margin */
+  resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+}
+
+/* Style the submit button with a specific background color etc */
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+/* When moving the mouse over the submit button, add a darker green color */
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+/* Add a background color and some padding around the form */
+.Form {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+}
+
+/* Create two equal columns that sits next to each other */
+.column {
+  flex: 50%;
+  padding: 0 4px;
+margin-left: auto;
+margin-right: auto;
+}
+
+.column img {
+  margin-top: 8px;
+  vertical-align: middle;
+}
+
+
+#image1 {
+
+}
+
+#image3 {
+}
+
+@media screen and (max-width: 980px) {
+    .Container {
+       /* width: 850px; 8/
+        /* height: 520px; */
+        font-size: 10pt;
+    }
+
+    #portfoliocontainer {
+        /* height: 595px; */
+    }
+    
+}
+@media screen and (max-width: 768px) {
+    .Container {
+        /* width: 670px; */
+        /* height: 520px;
+        font-size: 9pt;
+    }
+    #portfoliocontainer {
+     /* height: 595px; */
+
+}
+
+@media screen and (max-width: 640px) {
+    .Container {
+        /* width: 500px; */
+        /* height: 520px; */
+        font-size: 8pt;
+    }
+    #portfoliocontainer {
+      /* height: 595px; */
+    
+    }
+
+    #subject {
+        height: 70px;
+    }
+    
+
