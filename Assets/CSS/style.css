@@ -23,7 +23,7 @@ style
 
 #Name {
     float: left;
-    background-color: #4aaaa5;
+    background-color:crimson;
     height: 71px;
     width: 150px;
     border: 0px;
@@ -63,7 +63,7 @@ style
 }
 
 h3 {
-    color: #4aaaa5;
+    color:crimson;
     font-size: 25pt;
 }
 
@@ -246,3 +246,9 @@ margin-right: auto;
     }
     
 
+#HostingImage{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
