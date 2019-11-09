@@ -40,6 +40,13 @@ style
     top:-8%;
     font-size: 20pt;
 }
+.name{
+  color: white;
+  
+}
+a.name:hover{
+  color:white;
+}
 
 .nav-link {
     float: right;
