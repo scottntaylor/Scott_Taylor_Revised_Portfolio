@@ -27,7 +27,7 @@ style
 
 #Name {
     float: left;
-    background-color:crimson;
+    /* background-color:crimson; */
     height: 71px;
     width: 150px;
     border: 0px;
