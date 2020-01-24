@@ -20,7 +20,7 @@ style
   border: 5px 5px 5px 5px;
   border-color: white;
   width: 100%;
-  background-color: white;
+  background-color: #014211;
   padding: 0px;
   z-index: 1;
 }
@@ -29,7 +29,7 @@ style
     float: left;
     /* background-color:crimson; */
     height: 71px;
-    width: 150px;
+    width: 160px;
     border: 0px;
     padding: 18px 0px 18px 0px;
     margin: 5px;
@@ -38,7 +38,7 @@ style
     position: absolute;
     left: 10%;
     top:-8%;
-    font-size: 20pt;
+    font-size: 22pt;
 }
 .name{
   color: white;
@@ -50,7 +50,7 @@ a.name:hover{
 
 .nav-link {
     float: right;
-    color: grey;
+    color: white;
     padding: 22px;
 }
    
@@ -74,7 +74,7 @@ a.name:hover{
 }
 
 h3 {
-    color:crimson;
+    color: #014211;
     font-size: 25pt;
 }
 
@@ -118,7 +118,7 @@ Footer {
   }
 
 body {
-    background-color: #dddddd;
+    background-color: white;
     font-family: sans-serif;
 }
 
